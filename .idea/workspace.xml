@@ -6,25 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2e92e5b6-81c0-49be-8e43-adb466bc0589" name="Changes" comment="Move over flask tutorial code">
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/.idea/HelloWorldFlask.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/app/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/app/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/app/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/app/routes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/app/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/app/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/app/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/microblog.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software/microblog.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698965662514</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Move over flask tutorial code">
+      <option name="closed" value="true" />
+      <created>1698966348302</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698966348302</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Move over flask tutorial code">
+      <option name="closed" value="true" />
+      <created>1698966354543</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698966354543</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
