@@ -18,4 +18,5 @@ class CoachForm(FlaskForm):
 
 class PlayerForm(FlaskForm):
     name = StringField('Name', validators=[DataRequired(), Length(max=255)])
-    age = StringField('Position', validators=[DataRequired()])
+    position = StringField('Position', validators=[DataRequired()])
+    submit = SubmitField('Submit')
