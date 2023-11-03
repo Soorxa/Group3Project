@@ -1,16 +1,21 @@
-<!DOCTYPE html>
-<html>
 {% extends "base.html" %}
-
 {% block content %}
-    <h1>Hi, {{ user.username }}!</h1>
-    {% for post in posts %}
-    <div>
-        <p>
-            {{ post.author.username }} says: <b>{{ post.body }}</b>
-        </p>
-    </div>
-    {% endfor %}
-{% endblock %}
-</html>
+    <section >
+        <h1>Welcome to Your Sports Coaching Platform</h1>
+        <p>Your one-stop solution for coaching and player development.</p>
+    </section>
 
+    <section >
+        <h2>Key Features</h2>
+        <ul>
+            <li>Upload and Share Videos</li>
+            <li>Real-time Comments and Feedback</li>
+            <li>Enhance Team Performance</li>
+        </ul>
+    </section>
+
+    <section >
+        <h2>Get Started Today!</h2>
+        <a href="/register" class="btn btn-primary">Register Now</a>
+    </section>
+{% endblock %}

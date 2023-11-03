@@ -16,6 +16,20 @@
         <li><a href="/videos/video2.mp4">Video 2</a></li>
         <!-- Add more videos here -->
     </ul>
+
+        <h2>Comments:</h2>
+    <form action="/comment" method="post">
+        <label for="comment">Leave a Comment:</label>
+        <textarea name="comment" id="comment" rows="4" cols="50"></textarea>
+        <input type="submit" value="Submit Comment">
+    </form>
+    <div >
+        <div >
+            <p>Coach: Great job on this play!</p>
+        </div>
+        <div >
+            <p>Player: Thanks, Coach!</p>
+        </div>
 {% endblock %}
 
 
