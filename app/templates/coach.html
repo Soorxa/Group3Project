@@ -1,6 +1,27 @@
 {% extends "base.html" %}
 {% block content %}
     <h1>Welcome, Coach!</h1>
+    <form method="POST" novalidate>
+        {{ form.hidden_tag() }}
+        <div class="form-group">
+            {{ form.name.label(class="form-control-label") }}
+            {{ form.name(class="form-control") }}
+            {% for error in form.name.errors %}
+                <span class="text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div class="form-group">
+            {{ form.email.label(class="form-control-label") }}
+            {{ form.email(class="form-control") }}
+            {% for error in form.email.errors %}
+                <span class="text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+
+        <div class="form-group">
+            {{ form.submit(class="btn btn-primary") }}
+        </div>
+    </form>
 
     <!-- Video Upload Form -->
     <form action="/upload" method="post" enctype="multipart/form-data">
@@ -30,10 +51,5 @@
         <div >
             <p>Player: Thanks, Coach!</p>
         </div>
+    </div>
 {% endblock %}
-
-
-
-
-
-
