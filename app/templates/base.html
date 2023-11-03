@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }} - Film Review Application</title>
+        {% else %}
+        <title>Welcome to Film Review Application</title>
+        {% endif %}
+    </head>
+    <body>
+        <div>
+            Film Review Application:
+            <a href="/index">Home</a>
+            <a href="/login">Login</a>
+            <a href="/coach">Coach</a>
+            <a href="/player">Player</a>
+        </div>
+
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
