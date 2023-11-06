@@ -1,5 +1,5 @@
 # Group3Project
-Software engineering project creating a basketball Hudl app. 
+Software engineering project creating a Film Review Application
 
 
 Project Management   - Whole group  
